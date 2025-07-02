@@ -4,13 +4,13 @@ Various reference programs written for the [Adafruit Feather RP2040](https://www
 
 ## Catalog
 
-1. [Hello World](hello_world) - writes messages to the serial port
-1. [Blink](blink) - uses the onboard NANOPIXEL to blink
-1. [Momentary Switch](momentary_switch) - uses NO momentary switch to trigger an input pin
+1. [Hello World](/hello_world) - writes messages to the serial port
+1. [Blink](/blink) - uses the onboard NANOPIXEL to blink
+1. [Momentary Switch](/momentary_switch) - uses NO momentary switch to trigger an input pin
 
 ## Pinout
 
-![Feather RP2040 Pinout Diagram](asssets/feather_rp2040_pinout.png)
+![Feather RP2040 Pinout Diagram](/asssets/feather_rp2040_pinout.png)
 
 ## Todo
 
