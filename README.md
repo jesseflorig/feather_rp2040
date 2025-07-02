@@ -10,7 +10,7 @@ Various reference programs written for the [Adafruit Feather RP2040](https://www
 
 ## Pinout
 
-![Feather RP2040 Pinout Diagram](/asssets/feather_rp2040_pinout.png)
+![Feather RP2040 Pinout Diagram](/assets/feather_rp2040_pinout.png)
 
 ## Todo
 
