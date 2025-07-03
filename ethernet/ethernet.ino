@@ -10,8 +10,8 @@
 byte mac[] = { 0x02, 0xFE, 0xD3, 0xAD, 0xBE, 0xEF };
 
 // Static network config
-IPAddress ip(192,168,1,200);
-IPAddress gateway(192,168,1,1);
+IPAddress ip(10,1,1,20);
+IPAddress gateway(0,0,0,0);
 IPAddress subnet(255, 255, 255, 0);
 
 // Helper function to return ethernet hardware detected
@@ -41,7 +41,7 @@ void setup() {
   while (!Serial);
 
   Serial.println("Initializing Ethernet with Static IP...");
-  Ethernet.begin(mac, ip, gateway, subnet);
+  Ethernet.begin(mac, ip, subnet);
   
   delay(1000); // Allow hardware to settle
   Serial.printf("Ethernet %s initialized @ %s\n",
