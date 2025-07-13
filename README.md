@@ -7,6 +7,7 @@ Various reference programs written for the [Adafruit Feather RP2040](https://www
 1. [Hello World](/hello_world) - writes messages to the serial port
 1. [Blink](/blink) - uses the onboard NANOPIXEL to blink
 1. [Momentary Switch](/momentary_switch) - uses NO momentary switch to trigger an input pin
+1. [PWM](/pwm) - uses analog pin to fade LED in and out via pulse-width modulation (PWM)
 1. [Ethernet](/ethernet) - use the W5500 to set a static IP
 1. [MQTT](/mqtt) - use the W5500 to connect to an MQTT broker and pub/sub to topics
 
@@ -17,4 +18,3 @@ Various reference programs written for the [Adafruit Feather RP2040](https://www
 ## Todo
 
 - [ ] Confirm PoE HAT used pins and update diagram
-- [ ] Add PWM project
